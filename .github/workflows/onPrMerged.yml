@@ -13,4 +13,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: |
-        echo "The PR was merged from ${{github.event.pull_request.user.login}}"
+        echo "The PR was merged from ${{ toJson(github.event.pull_request.user) }}"
