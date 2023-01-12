@@ -14,4 +14,4 @@ jobs:
     steps:
     - run: |
         echo "The PR was merged from ${{ toJson(github.event.pull_request.user) }}" |
-        echo "issue id: ${{ toJson(github.event.issue) }}"
+        echo "issue id: ${{ toJson(github.event) }}"
