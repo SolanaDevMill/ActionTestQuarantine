@@ -9,5 +9,5 @@ jobs:
     steps:
       - name: create bounty step
         id: bounty
-        uses: SolanaDevMill/CreateBountyAction@c29c512f01344f12712f20d0f9885bd37e48a5c3
+        uses: SolanaDevMill/CreateBountyAction@main
         
