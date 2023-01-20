@@ -1,0 +1,12 @@
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  release_bounty_job:
+    runs-on: ubuntu-latest
+    name: release bounty
+    steps:
+      - name: release bounty
+        uses: SolanaDevMill/ReleaseBountyAction@main 
+      
