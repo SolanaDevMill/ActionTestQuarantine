@@ -10,4 +10,6 @@ jobs:
       - name: create bounty step
         id: bounty
         uses: SolanaDevMill/CreateBountyAction@main
+        with:
+          wallet-key: ${{ secrets.DEV_MILL_KEY }}
         
