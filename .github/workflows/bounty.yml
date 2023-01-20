@@ -11,5 +11,5 @@ jobs:
         id: bounty
         uses: SolanaDevMill/CreateBountyAction@main
         with:
-          wallet-key: ${{ secrets.DEV_MILL_KEY }}
+          wallet-key: ${{ secrets.DEVMILLKEY }}
         
