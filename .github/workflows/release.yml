@@ -8,5 +8,7 @@ jobs:
     name: release bounty
     steps:
       - name: release bounty
-        uses: SolanaDevMill/ReleaseBountyAction@main 
+        uses: SolanaDevMill/ReleaseBountyAction@main
+        with:
+          wallet-key: ${{ secrets.DEVMILLKEY }}
       
